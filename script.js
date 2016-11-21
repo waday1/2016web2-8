@@ -89,7 +89,7 @@ onload = function(){
     gl.flush();
 
     // カウンタをインクリメントする
-    count++;
+    count+=10;
 
     // ループのために再帰呼び出し
     setTimeout(arguments.callee, 1000 / 30);
