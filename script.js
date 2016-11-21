@@ -35,7 +35,7 @@ onload = function(){
     1.0, 0.0, 1.0, 1.0,
     0.0, 1.0, 1.0, 1.0
   ]; 
-
+ 
   // VBOの生成
   var pos_vbo = create_vbo(position);
   var col_vbo = create_vbo(color);
